@@ -1,0 +1,1 @@
+import{_ as o,r as n,o as a,c,a as e,d as s,w as l,b as r}from"./app-Q-AMctCt.js";const _={};function i(u,d){const t=n("RouterLink");return a(),c("div",null,[e("ul",null,[e("li",null,[s(t,{to:"/posts/github/action.html"},{default:l(()=>[r("action")]),_:1})])])])}const f=o(_,[["render",i],["__file","index.html.vue"]]);export{f as default};

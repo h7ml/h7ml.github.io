@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,b as o}from"./app-Q-AMctCt.js";const r={},s=e("h1",{id:"webgl",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#webgl","aria-hidden":"true"},"#"),o(" webgl")],-1),n=[s];function _(l,d){return a(),c("div",null,n)}const h=t(r,[["render",_],["__file","webgl.html.vue"]]);export{h as default};

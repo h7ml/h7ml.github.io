@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,a as e,b as d}from"./app-Q-AMctCt.js";const o={},r=e("h1",{id:"baidumap",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#baidumap","aria-hidden":"true"},"#"),d(" baiduMap")],-1),s=[r];function i(n,_){return t(),c("div",null,s)}const h=a(o,[["render",i],["__file","baiduMap.html.vue"]]);export{h as default};

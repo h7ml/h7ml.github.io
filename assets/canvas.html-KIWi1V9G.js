@@ -1,0 +1,1 @@
+import{_ as a,o as c,c as s,a as e,b as t}from"./app-Q-AMctCt.js";const n={},o=e("h1",{id:"canvas",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#canvas","aria-hidden":"true"},"#"),t(" canvas")],-1),r=[o];function _(d,i){return c(),s("div",null,r)}const l=a(n,[["render",_],["__file","canvas.html.vue"]]);export{l as default};

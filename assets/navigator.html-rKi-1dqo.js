@@ -1,0 +1,9 @@
+import{_ as n,o as a,c as s,f as t}from"./app-Q-AMctCt.js";const e={},o=t(`<h1 id="javascript-navigator-浏览器信息" tabindex="-1"><a class="header-anchor" href="#javascript-navigator-浏览器信息" aria-hidden="true">#</a> JavaScript navigator 浏览器信息</h1><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code>navigator<span class="token punctuation">.</span>appCodeName<span class="token punctuation">;</span> <span class="token comment">//浏览器代号</span>
+navigator<span class="token punctuation">.</span>appName<span class="token punctuation">;</span> <span class="token comment">// 浏览名称</span>
+navigator<span class="token punctuation">.</span>appVersion<span class="token punctuation">;</span> <span class="token comment">// 浏览器版本</span>
+navigator<span class="token punctuation">.</span>cookieEnabled<span class="token punctuation">;</span> <span class="token comment">// 是否启用 cookie</span>
+navigator<span class="token punctuation">.</span>language<span class="token punctuation">;</span> <span class="token comment">// 系统语言：标准</span>
+navigator<span class="token punctuation">.</span>systemLanguage<span class="token punctuation">;</span> <span class="token comment">// 系统语言：ie</span>
+navigator<span class="token punctuation">.</span>platform<span class="token punctuation">;</span> <span class="token comment">// 操作系统</span>
+navigator<span class="token punctuation">.</span>userAgent<span class="token punctuation">;</span> <span class="token comment">// 用户代理</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),c=[o];function i(p,l){return a(),s("div",null,c)}const r=n(e,[["render",i],["__file","navigator.html.vue"]]);export{r as default};

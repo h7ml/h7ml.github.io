@@ -1,0 +1,1 @@
+import{_ as t,o,c as _,a as e}from"./app-Q-AMctCt.js";const c={},s=e("p",null,"享元模式主要用于性能优化，当出现大量的重复对象时，为了防止内存被撑爆，可以抽离一些公共部分进行共享。",-1),n=e("p",null,"目前开发中还没有遇到过，此处留坑。",-1),l=[s,n];function a(r,i){return o(),_("div",null,l)}const d=t(c,[["render",a],["__file","flyweight.html.vue"]]);export{d as default};

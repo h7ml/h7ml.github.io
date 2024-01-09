@@ -1,0 +1,6 @@
+import{_ as a,r as s,o as i,c as o,a as e,b as n,d as c,f as l}from"./app-Q-AMctCt.js";const r={},d=e("p",null,[n("跨编辑器/IDE 规范编码风格，使用 yaml 风格，配置文件为 "),e("code",null,".editorconfig")],-1),p={href:"https://editorconfig.org/",target:"_blank",rel:"noopener noreferrer"},_=l(`<p>注意在 VSCode 中需要下载一个插件，用于支持 <code>editorconfigCore</code></p><p>一个规范的 <code>.editorconfig</code> 通常是这样的：</p><div class="language-yaml line-numbers-mode" data-ext="yml"><pre class="language-yaml"><code>root = true
+
+<span class="token punctuation">[</span>*<span class="token punctuation">]</span> charset = utf<span class="token punctuation">-</span>8 indent_size = 2 indent_style = space end_of_line = lf insert_final_newline = true trim_trailing_whitespace = true
+
+<span class="token punctuation">[</span><span class="token important">*.md</span><span class="token punctuation">]</span> insert_final_newline = false trim_trailing_whitespace = false
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3);function u(m,f){const t=s("ExternalLinkIcon");return i(),o("div",null,[d,e("p",null,[e("a",p,[n("官网"),c(t)])]),_])}const g=a(r,[["render",u],["__file","editorconfig.html.vue"]]);export{g as default};

@@ -1,0 +1,9 @@
+import{_ as i,r as l,o as n,c as d,a as e,b as s,d as a,f as o}from"./app-Q-AMctCt.js";const c={},r=o(`<p>当执行 git 动作时，.gitattributes 文件允许你指定由 git 使用的文件和路径的属性，例如：git commit 等。</p><p>比较常用的有 <code>eol</code>(end of line) 属性，主要原因在于 Windows 和 Unix like 的文件结尾行不同</p><ul><li>windows 是 <code>CRLF</code>(Carriage Return Line Feed) 回车换行</li><li>但在 unix like 系统中，使用 <code>LF</code>(Line Feed) 换行</li></ul><p>由于换行符不同，不同操作平台之间的开发者很容易导致 Git 提交的文件不一致(可能会从 LF 改为 CRLF 或者反之)，所以 gitattributes 就可以排上用场了：</p><p>一个规范的 <code>.gitattributes</code> 的文件可能是这样的：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>*.js  eol=lf
+*.jsx eol=lf
+*.ts  eol=lf
+*.tsx eol=lf
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果希望工作区的所有文本都是规范化的，可以采用</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>* text=auto
+*.js text eol=lf
+*.ts text eol=crlf
+*.sh -text
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在上面的配置文件中规范：</p><ul><li>所有文件是 <code>auto</code></li><li><code>.js</code> 是 <code>lf</code></li><li><code>.ts</code> 是 <code>crlf</code></li><li><code>.sh</code> 不进行格式化</li></ul><h2 id="引用" tabindex="-1"><a class="header-anchor" href="#引用" aria-hidden="true">#</a> 引用</h2>`,11),u={href:"https://www.cnblogs.com/kidsitcn/p/4769344.html",target:"_blank",rel:"noopener noreferrer"};function v(m,p){const t=l("ExternalLinkIcon");return n(),d("div",null,[r,e("ul",null,[e("li",null,[e("a",u,[s("详解"),a(t)])])])])}const b=i(c,[["render",v],["__file","gitattributes.html.vue"]]);export{b as default};

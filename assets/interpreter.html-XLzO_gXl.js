@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as o,a as e}from"./app-Q-AMctCt.js";const _={},s=e("p",null,"解释器模式应用在对自定义语法的解释上，自己规定一些新语法，然后通过解释器模式，语法的每种表达式进行细分，最终解释整个表达式。",-1),c=e("p",null,"可能会用在编译器、规则引擎上。",-1),r=e("p",null,"目前自己还没有遇到过，此处留坑。",-1),l=[s,c,r];function a(i,d){return n(),o("div",null,l)}const u=t(_,[["render",a],["__file","interpreter.html.vue"]]);export{u as default};

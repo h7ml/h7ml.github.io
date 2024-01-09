@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s,a as c}from"./app-Q-AMctCt.js";const o={},_=c("p",null,"多表查询是从多张表中一次性的查询出我们想要的数据",-1),l=[_];function a(n,r){return t(),s("div",null,l)}const u=e(o,[["render",a],["__file","multi-table-queries.html.vue"]]);export{u as default};

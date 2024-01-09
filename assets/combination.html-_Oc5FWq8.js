@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as n,a as e}from"./app-Q-AMctCt.js";const c={},_=e("p",null,"组合模式主要应用在符合树状结构的场景中，父节点和子节点实现统一接口，父节点委托给子节点进行执行。",-1),s=e("p",null,"其中父节点就可以当作组合对象，用户调用的时候无需关系是组合对象还是子对象，面向接口调用即可。",-1),l=e("p",null,"目前开发中还没有遇到过，此处留坑。",-1),a=[_,s,l];function i(r,d){return t(),n("div",null,a)}const u=o(c,[["render",i],["__file","combination.html.vue"]]);export{u as default};

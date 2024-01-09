@@ -1,0 +1,5 @@
+site: h7ml
+public: /
+rewrites:
+  - source: /*
+    destination: /index.html
